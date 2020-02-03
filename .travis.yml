@@ -240,6 +240,9 @@ matrix:
 
     # default builds for Linux
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
         - ENABLE_CONTRIB=0
@@ -247,6 +250,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
         - UNICODE_WIDTH=16
@@ -255,6 +261,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
         - PLAT=i686
@@ -263,6 +272,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
         - PLAT=i686
@@ -272,6 +284,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.5
         - ENABLE_CONTRIB=0
@@ -279,6 +294,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.5
         - PLAT=i686
@@ -287,6 +305,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.6
         - ENABLE_CONTRIB=0
@@ -295,6 +316,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.6
         - PLAT=i686
@@ -304,6 +328,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.7
         - ENABLE_CONTRIB=0
@@ -312,6 +339,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.7
         - PLAT=i686
@@ -321,6 +351,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.8
         - ENABLE_CONTRIB=0
@@ -329,6 +362,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.8
         - PLAT=i686
@@ -340,6 +376,9 @@ matrix:
 
     # headless builds for Linux
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
         - ENABLE_CONTRIB=0
@@ -347,6 +386,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
         - UNICODE_WIDTH=16
@@ -355,6 +397,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
         - PLAT=i686
@@ -363,6 +408,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
         - PLAT=i686
@@ -372,6 +420,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.5
         - ENABLE_CONTRIB=0
@@ -379,6 +430,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.5
         - PLAT=i686
@@ -387,6 +441,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.6
         - ENABLE_CONTRIB=0
@@ -395,6 +452,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.6
         - PLAT=i686
@@ -404,6 +464,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.7
         - ENABLE_CONTRIB=0
@@ -412,6 +475,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.7
         - PLAT=i686
@@ -421,6 +487,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.8
         - ENABLE_CONTRIB=0
@@ -429,6 +498,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.8
         - PLAT=i686
@@ -440,6 +512,9 @@ matrix:
 
     # contrib builds for Linux
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
         - ENABLE_CONTRIB=1
@@ -447,6 +522,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
         - UNICODE_WIDTH=16
@@ -455,6 +533,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
         - PLAT=i686
@@ -463,6 +544,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
         - PLAT=i686
@@ -472,6 +556,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.5
         - ENABLE_CONTRIB=1
@@ -479,6 +566,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.5
         - PLAT=i686
@@ -487,6 +577,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.6
         - TEST_DEPENDS=numpy==1.11.3
@@ -495,6 +588,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.6
         - PLAT=i686
@@ -504,6 +600,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.7
         - TEST_DEPENDS=numpy==1.14.5
@@ -512,6 +611,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.7
         - PLAT=i686
@@ -521,6 +623,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.8
         - TEST_DEPENDS=numpy==1.17.3
@@ -529,6 +634,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.8
         - PLAT=i686
@@ -541,6 +649,9 @@ matrix:
 
     # headless contrib builds for Linux
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
         - ENABLE_CONTRIB=1
@@ -548,6 +659,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
         - UNICODE_WIDTH=16
@@ -556,6 +670,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
         - PLAT=i686
@@ -564,6 +681,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
         - PLAT=i686
@@ -573,6 +693,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.5
         - ENABLE_CONTRIB=1
@@ -580,6 +703,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.5
         - PLAT=i686
@@ -588,6 +714,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.6
         - TEST_DEPENDS=numpy==1.11.3
@@ -596,6 +725,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.6
         - PLAT=i686
@@ -605,6 +737,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.7
         - TEST_DEPENDS=numpy==1.14.5
@@ -613,6 +748,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.7
         - PLAT=i686
@@ -622,6 +760,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.8
         - TEST_DEPENDS=numpy==1.17.3
@@ -630,6 +771,9 @@ matrix:
       cache:
         directories: $HOME/.ccache
     - os: linux
+      arch: 
+        - amd64
+        - ppc64le
       env:
         - MB_PYTHON_VERSION=3.8
         - PLAT=i686
@@ -650,6 +794,7 @@ before_install: |
     source multibuild/common_utils.sh
     # https://github.com/matthew-brett/multibuild/issues/116
     if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then export ARCH_FLAGS=" "; fi
+    if [[ "$TRAVIS_CPU_ARCH" == "ppc64le" ]]; then export ARCH_FLAGS=" "; fi
     echo "Source multibuild/travis_steps.sh"
     source multibuild/travis_steps.sh
     # This sets -x
