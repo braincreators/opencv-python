@@ -708,7 +708,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
-        - PLAT=i686
         - ENABLE_CONTRIB=0
         - ENABLE_HEADLESS=0
       cache:
@@ -717,7 +716,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
-        - PLAT=i686
         - UNICODE_WIDTH=16
         - ENABLE_CONTRIB=0
         - ENABLE_HEADLESS=0
@@ -735,7 +733,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=3.5
-        - PLAT=i686
         - ENABLE_CONTRIB=0
         - ENABLE_HEADLESS=0
       cache:
@@ -753,7 +750,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=3.6
-        - PLAT=i686
         - ENABLE_CONTRIB=0
         - ENABLE_HEADLESS=0
         - TEST_DEPENDS=numpy==1.11.3
@@ -772,7 +768,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=3.7
-        - PLAT=i686
         - ENABLE_CONTRIB=0
         - ENABLE_HEADLESS=0
         - TEST_DEPENDS=numpy==1.14.5
@@ -791,7 +786,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=3.8
-        - PLAT=i686
         - ENABLE_CONTRIB=0
         - ENABLE_HEADLESS=0
         - TEST_DEPENDS=numpy==1.17.3
@@ -820,7 +814,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
-        - PLAT=i686
         - ENABLE_CONTRIB=0
         - ENABLE_HEADLESS=1
       cache:
@@ -829,7 +822,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
-        - PLAT=i686
         - UNICODE_WIDTH=16
         - ENABLE_CONTRIB=0
         - ENABLE_HEADLESS=1
@@ -847,7 +839,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=3.5
-        - PLAT=i686
         - ENABLE_CONTRIB=0
         - ENABLE_HEADLESS=1
       cache:
@@ -865,7 +856,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=3.6
-        - PLAT=i686
         - ENABLE_CONTRIB=0
         - ENABLE_HEADLESS=1
         - TEST_DEPENDS=numpy==1.11.3
@@ -884,7 +874,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=3.7
-        - PLAT=i686
         - ENABLE_CONTRIB=0
         - ENABLE_HEADLESS=1
         - TEST_DEPENDS=numpy==1.14.5
@@ -903,7 +892,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=3.8
-        - PLAT=i686
         - ENABLE_CONTRIB=0
         - ENABLE_HEADLESS=1
         - TEST_DEPENDS=numpy==1.17.3
@@ -932,7 +920,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
-        - PLAT=i686
         - ENABLE_CONTRIB=1
         - ENABLE_HEADLESS=0
       cache:
@@ -941,7 +928,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
-        - PLAT=i686
         - UNICODE_WIDTH=16
         - ENABLE_CONTRIB=1
         - ENABLE_HEADLESS=0
@@ -959,7 +945,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=3.5
-        - PLAT=i686
         - ENABLE_CONTRIB=1
         - ENABLE_HEADLESS=0
       cache:
@@ -977,7 +962,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=3.6
-        - PLAT=i686
         - TEST_DEPENDS=numpy==1.11.3
         - ENABLE_CONTRIB=1
         - ENABLE_HEADLESS=0
@@ -996,7 +980,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=3.7
-        - PLAT=i686
         - TEST_DEPENDS=numpy==1.14.5
         - ENABLE_CONTRIB=1
         - ENABLE_HEADLESS=0
@@ -1015,7 +998,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=3.8
-        - PLAT=i686
         - TEST_DEPENDS=numpy==1.17.3
         - ENABLE_CONTRIB=1
         - ENABLE_HEADLESS=0
@@ -1045,7 +1027,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
-        - PLAT=i686
         - ENABLE_CONTRIB=1
         - ENABLE_HEADLESS=1
       cache:
@@ -1054,7 +1035,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=2.7
-        - PLAT=i686
         - UNICODE_WIDTH=16
         - ENABLE_CONTRIB=1
         - ENABLE_HEADLESS=1
@@ -1072,7 +1052,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=3.5
-        - PLAT=i686
         - ENABLE_CONTRIB=1
         - ENABLE_HEADLESS=1
       cache:
@@ -1090,7 +1069,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=3.6
-        - PLAT=i686
         - TEST_DEPENDS=numpy==1.11.3
         - ENABLE_CONTRIB=1
         - ENABLE_HEADLESS=1
@@ -1109,7 +1087,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=3.7
-        - PLAT=i686
         - TEST_DEPENDS=numpy==1.14.5
         - ENABLE_CONTRIB=1
         - ENABLE_HEADLESS=1
@@ -1128,7 +1105,6 @@ matrix:
       arch: ppc64le
       env:
         - MB_PYTHON_VERSION=3.8
-        - PLAT=i686
         - TEST_DEPENDS=numpy==1.17.3
         - ENABLE_CONTRIB=1
         - ENABLE_HEADLESS=1
