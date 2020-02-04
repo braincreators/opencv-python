@@ -238,7 +238,7 @@ matrix:
       workspaces:
         use: brew_cache
 
-    # default builds for Linux
+    # default builds for Linux / AMD64
     - os: linux
       env:
         - MB_PYTHON_VERSION=2.7
@@ -338,7 +338,7 @@ matrix:
       cache:
         directories: $HOME/.ccache
 
-    # headless builds for Linux
+    # headless builds for Linux / AMD64
     - os: linux
       env:
         - MB_PYTHON_VERSION=2.7
@@ -438,7 +438,7 @@ matrix:
       cache:
         directories: $HOME/.ccache
 
-    # contrib builds for Linux
+    # contrib builds for Linux / AMD64
     - os: linux
       env:
         - MB_PYTHON_VERSION=2.7
@@ -539,7 +539,7 @@ matrix:
         directories: $HOME/.ccache
 
 
-    # headless contrib builds for Linux
+    # headless contrib builds for Linux / AMD64
     - os: linux
       env:
         - MB_PYTHON_VERSION=2.7
@@ -638,6 +638,261 @@ matrix:
         - ENABLE_HEADLESS=1
       cache:
         directories: $HOME/.ccache
+
+
+    # default builds for Linux / PPC64le
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=2.7
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - ENABLE_CONTRIB=0
+        - ENABLE_HEADLESS=0
+      cache:
+        directories: $HOME/.ccache
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=3.5
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - ENABLE_CONTRIB=0
+        - ENABLE_HEADLESS=0
+      cache:
+        directories: $HOME/.ccache
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=3.6
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - ENABLE_CONTRIB=0
+        - ENABLE_HEADLESS=0
+        - TEST_DEPENDS=numpy==1.11.3
+      cache:
+        directories: $HOME/.ccache
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=3.7
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - ENABLE_CONTRIB=0
+        - ENABLE_HEADLESS=0
+        - TEST_DEPENDS=numpy==1.14.5
+      cache:
+        directories: $HOME/.ccache
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=3.8
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - ENABLE_CONTRIB=0
+        - ENABLE_HEADLESS=0
+        - TEST_DEPENDS=numpy==1.17.3
+      cache:
+        directories: $HOME/.ccache
+
+    # headless builds for Linux / PPC64le
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=2.7
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - ENABLE_CONTRIB=0
+        - ENABLE_HEADLESS=1
+      cache:
+        directories: $HOME/.ccache
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=2.7
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - UNICODE_WIDTH=16
+        - ENABLE_CONTRIB=0
+        - ENABLE_HEADLESS=1
+      cache:
+        directories: $HOME/.ccache
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=3.5
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - ENABLE_CONTRIB=0
+        - ENABLE_HEADLESS=1
+      cache:
+        directories: $HOME/.ccache
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=3.6
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - ENABLE_CONTRIB=0
+        - ENABLE_HEADLESS=1
+        - TEST_DEPENDS=numpy==1.11.3
+      cache:
+        directories: $HOME/.ccache
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=3.7
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - ENABLE_CONTRIB=0
+        - ENABLE_HEADLESS=1
+        - TEST_DEPENDS=numpy==1.14.5
+      cache:
+        directories: $HOME/.ccache
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=3.8
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - ENABLE_CONTRIB=0
+        - ENABLE_HEADLESS=1
+        - TEST_DEPENDS=numpy==1.17.3
+      cache:
+        directories: $HOME/.ccache
+
+    # contrib builds for Linux / PPC64le
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=2.7
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - ENABLE_CONTRIB=1
+        - ENABLE_HEADLESS=0
+      cache:
+        directories: $HOME/.ccache
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=2.7
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - UNICODE_WIDTH=16
+        - ENABLE_CONTRIB=1
+        - ENABLE_HEADLESS=0
+      cache:
+        directories: $HOME/.ccache
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=3.5
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - ENABLE_CONTRIB=1
+        - ENABLE_HEADLESS=0
+      cache:
+        directories: $HOME/.ccache
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=3.6
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - TEST_DEPENDS=numpy==1.11.3
+        - ENABLE_CONTRIB=1
+        - ENABLE_HEADLESS=0
+      cache:
+        directories: $HOME/.ccache
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=3.7
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - TEST_DEPENDS=numpy==1.14.5
+        - ENABLE_CONTRIB=1
+        - ENABLE_HEADLESS=0
+      cache:
+        directories: $HOME/.ccache
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=3.8
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - TEST_DEPENDS=numpy==1.17.3
+        - ENABLE_CONTRIB=1
+        - ENABLE_HEADLESS=0
+      cache:
+        directories: $HOME/.ccache
+
+
+    # headless contrib builds for Linux / PPC64le
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=2.7
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - ENABLE_CONTRIB=1
+        - ENABLE_HEADLESS=1
+      cache:
+        directories: $HOME/.ccache
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=3.5
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - ENABLE_CONTRIB=1
+        - ENABLE_HEADLESS=1
+      cache:
+        directories: $HOME/.ccache
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=3.6
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - TEST_DEPENDS=numpy==1.11.3
+        - ENABLE_CONTRIB=1
+        - ENABLE_HEADLESS=1
+      cache:
+        directories: $HOME/.ccache
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=3.7
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - TEST_DEPENDS=numpy==1.14.5
+        - ENABLE_CONTRIB=1
+        - ENABLE_HEADLESS=1
+      cache:
+        directories: $HOME/.ccache
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=3.8
+        - MB_ML_VER=2014
+        - TEST_DEPENDS=numpy==1.17.3
+        - ENABLE_CONTRIB=1
+        - ENABLE_HEADLESS=1
+      cache:
+        directories: $HOME/.ccache
+    - os: linux
+      arch: ppc64le
+      env:
+        - MB_PYTHON_VERSION=3.8
+        - MB_ML_VER=2014
+        - PLAT=ppc64le
+        - TEST_DEPENDS=numpy==1.17.3
+        - ENABLE_CONTRIB=1
+        - ENABLE_HEADLESS=1
+      cache:
+        directories: $HOME/.ccache
+
 
 # The first line is printed in the folding header in Travis output
 before_install: |
@@ -650,6 +905,7 @@ before_install: |
     source multibuild/common_utils.sh
     # https://github.com/matthew-brett/multibuild/issues/116
     if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then export ARCH_FLAGS=" "; fi
+    if [[ "$TRAVIS_CPU_ARCH" == "ppc64le" ]]; then export ARCH_FLAGS=" "; fi
     echo "Source multibuild/travis_steps.sh"
     source multibuild/travis_steps.sh
     # This sets -x
